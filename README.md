@@ -16,8 +16,8 @@ Due to a small p-value, we are able to reject the null hypothesis of slope = 0, 
 With an adjusted R-squared of 0.6825 this linear model does a good job of predicting the MPG of this prototype. 
 
 ## Summary Statistics on Suspension Coils
-<img src="Resources/total_summary.png" width="650" height="200">
-<img src="Resources/lot_summary.png" width="650" height="200">
+<img src="Resources/total_summary.png" width="600" height="100">
+<img src="Resources/lot_summary.png" width="600" height="100">
 
 The design specifications for the suspension coils dictate that a variance of suspension must not exceed 100 pounds per square inch. When looking at the total summary, the overall variance shows that this manufacturing model meets these expectations. However, when looking at the lot summary, we can see the third lot has a significantly higher variance (170), which means a vehicle manufactured from this lot may not meet suspecion expectations by being over the 100 pounds per square inch variance. This means the third lot's manufacturing processes and quality are not up to overall expecations and needs to be addressed. 
 
@@ -28,7 +28,7 @@ The design specifications for the suspension coils dictate that a variance of su
 For the summary data of coil suspension across all lots, the t-test shows that there is no statistical difference against the population mean. With a p-value greater than 0.05, we fail to reject the null hypothesis that the sample mean may be equal to the true population mean.
 
 ### Across Each Lot
-<img src="Resources/ttest_eachlot.png" width="400" height="300">
+<img src="Resources/ttest_eachlot.png" width="400" height="550">
 
 ### Lot 1 
 Looking at the summary data for coil suspensions across Lot 1, we see there is no statistical difference from the population mean. The p-value is not below 0.05, therefore, we fail to reject the null hypothesis that the sample mean may be equal to the true population mean.
